@@ -43,7 +43,7 @@
 ## 安装
 
 1. 浏览器安装 [Tampermonkey](https://www.tampermonkey.net/)
-2. 打开 `douyin-red-comment.user.js`，Tampermonkey 会自动弹出安装页；或手动复制全部内容到新脚本
+2. 打开 `dy-red.user.js`，Tampermonkey 会自动弹出安装页；或手动复制全部内容到新脚本
 3. 打开 `douyin.com` 任意视频评论区
 
 > **Chrome / Edge 138+ 注意**：新版强制 `userScripts` API，需要在扩展详情里打开「**允许用户脚本**」，否则所有油猴脚本都不会执行。
@@ -118,14 +118,14 @@
 
 ```bash
 # 语法检查
-node --check douyin-red-comment.user.js
+node --check dy-red.user.js
 ```
 
 项目结构：
 
 ```
 douyin-comment-style/
-├── douyin-red-comment.user.js   # 主脚本（Tampermonkey）
+├── dy-red.user.js   # 主脚本（Tampermonkey）
 ├── docs/
 │   ├── PRINCIPLE.md               # 逆向原理与实测数据
 │   └── TYPES.md                   # text_extra type 枚举表

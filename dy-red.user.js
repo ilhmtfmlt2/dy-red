@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         抖音评论红字（评论区变色）
-// @namespace    https://github.com/douyin-red-comment
+// @namespace    https://github.com/ilhmtfmlt2/dy-red
 // @version      4.0.0
 // @description  抖音网页版评论区给评论加红色字体/位置/话题样式。text_extra 注入，别人也能看到颜色。含面板、持续模式、发送诊断与回读验证。
-// @author       douyin-red-comment
+// @author       ilhmtfmlt2
 // @match        https://www.douyin.com/*
 // @match        https://*.douyin.com/*
 // @run-at       document-start
